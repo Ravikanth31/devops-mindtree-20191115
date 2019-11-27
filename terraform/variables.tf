@@ -3,7 +3,7 @@ variable "key_name" {
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/amit-personal-aws.pem"
+  default = "/root/.ssh/Devops_301.pem"
 }
 
 variable "us-east-zones" {
