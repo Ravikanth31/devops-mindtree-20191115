@@ -1,9 +1,9 @@
 variable "key_name" {
-  default = "amit-personal-aws"
+  default = "mindtree-demo-aws"
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/Devops_301.pem"
+  default = "/var/lib/jenkins/mindtree-demo-aws.pem"
 }
 
 variable "us-east-zones" {
@@ -11,5 +11,5 @@ variable "us-east-zones" {
 }
 
 variable "sg-id" {
-  default = "sg-0cd6b0c3811f41596"
+  default = "sg-03f3269c004b0b54b"
 }
