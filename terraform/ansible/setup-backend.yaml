@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: jenkins-ci
   become: yes
   become_method: sudo
   vars:
