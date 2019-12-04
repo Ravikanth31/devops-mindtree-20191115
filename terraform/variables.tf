@@ -3,7 +3,7 @@ variable "key_name" {
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/demo.pem"
+  default = "/var/lib/jenkins/mindtree-demo-aws.pem"
 }
 
 variable "us-east-zones" {
